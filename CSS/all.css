@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../Fonts/');
+}
+
+body {
+    background: var(--body);
+    margin-left: 130px;
+}
+
+main {
+    margin: 41px;
+    position: relative;
+}
+
+/* DIV */
+.divFlex {
+    display: flex;
+    flex-wrap: wrap;
+}

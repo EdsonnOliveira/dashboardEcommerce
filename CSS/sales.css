@@ -1,0 +1,202 @@
+table tr {
+    height: 70px;
+    font-size: 17px;
+}
+
+.filter {
+    width: calc(225px - 20px);
+    padding: 10px;
+    position: fixed;
+    right: 40px;
+    top: 60px;
+    background-color: #232323;
+    border-radius: 7px;
+}
+
+.filter form input[type='submit'] {
+    font-size: 15px;
+}
+
+/* INFO */
+.divFlex #info {
+    width: 769px;
+    color: var(--sales-info-text);
+}
+
+.divFlex #info h1 {
+    font-size: 84px;
+    margin-bottom: 13px;
+}
+
+.divFlex #info h2 {
+    font-size: 35px;
+}
+
+.divFlex #info h3 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.divFlex #info h4 {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.divFlex #info #actions {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+.divFlex #info #actions button {
+    font-size: 15px;
+}
+
+.divFlex #info #formas {
+    display: flex;
+    justify-content: center;
+}
+
+.divFlex #info #formas .forma {
+    width: 370px;
+    height: 297px;
+    border-radius: 7px;
+    background-color: #E2E2E2;
+}
+
+.divFlex #info #formas .forma div {
+    width: calc(100% - 20px);
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.45);
+}
+
+.divFlex #info #formas .forma div h1{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.divFlex #info #formas .forma div h2{
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.divFlex #info #formas .forma .forma1 {
+    height: 71px;
+    margin-bottom: 16px;
+}
+
+.divFlex #info #formas .forma .forma2 {
+    height: 170px;
+}
+
+/* ITEM */
+.product {
+    width: 225px;
+    height: 250px;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.product {
+    background-size: cover;
+}
+
+.product .quantity {
+    width: 50px;
+    height: 25px;
+    border-radius: 7px 0px 7px 0px;
+    background-color: #007BFC;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+.product .quantity h2 {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.product .size {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #232323;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .size h2 {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.product .color {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.45);
+}
+
+.product .price {
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 7px 0 7px;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+}
+
+.product .price h2 {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.product .reference {
+    width: 70px;
+    height: 18px;
+    background-color: #232323;
+    border-radius: 0 0 0 7px;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 25px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .reference h2 {
+    font-size: 9px;
+}
+
+.product .name {
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 7px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.product .name h1 {
+    font-size: 13px;
+}

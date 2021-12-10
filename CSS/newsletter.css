@@ -1,0 +1,36 @@
+.filter {
+    width: calc(225px - 20px);
+    padding: 10px;
+    position: fixed;
+    right: 40px;
+    top: 60px;
+    background-color: #232323;
+    border-radius: 7px;
+}
+
+#add {
+    width: 173px;
+    height: 45px;
+    border-radius: 7px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 1px dashed var(--product-modify);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+}
+
+#add h3 {
+    color: var(--product-modify-text);
+}
+
+a.btEmail {
+    padding: 13.3px 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}

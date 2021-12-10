@@ -1,0 +1,37 @@
+.message {
+    border-radius: 7px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    height: 40px;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: message 3s;
+}
+
+@keyframes message{
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+/* COLOR */
+.message.msRed {
+    background-color: #E04B4B;
+}
+
+.message.msGreen {
+    background-color: #0ABB87;
+}
+
+/* TEXT */
+.message h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}

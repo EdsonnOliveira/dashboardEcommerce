@@ -1,0 +1,47 @@
+main {
+    width: 457px;
+    height: 522px;
+}
+
+main div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main div img {
+    width: 300px;
+}
+
+main div h1 {
+    font-size: 45px;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+main div form {
+    width: 421px;
+}
+
+main div form label h3 {
+    margin-bottom: 5px;
+}
+
+main div form label input[type='email'], main div form label input[type='password'] {
+    width: 395px;
+    height: 21px;
+    padding: 13px;
+    font-size: 17px;
+    color: #5E5D5D;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main div form input[type='submit'] {
+    width: 416px;
+    height: 55px;
+    font-size: 19px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}

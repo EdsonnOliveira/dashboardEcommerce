@@ -1,0 +1,245 @@
+.divFlex section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divFlex section#product {
+    width: 1575px;
+}
+
+.product {
+    width: 225px;
+    height: 250px;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* ADD */
+a[href='productModify.php'] .product {
+    border: 1px dashed var(--product-modify);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a[href='productModify.php'] .product h3 {
+    color: var(--product-modify-text);
+}
+
+/* ITEM */
+a[href^='productModify.php?ID'] .product {
+    background-size: cover;
+}
+
+a[href^='productModify.php?ID'] .product .price {
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 7px 0 7px;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+}
+
+a[href^='productModify.php?ID'] .product .price h2 {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+a[href^='productModify.php?ID'] .product .name {
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 7px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+a[href^='productModify.php?ID'] .product .name h1 {
+    font-size: 13px;
+}
+
+/* FILTER */
+.filter {
+    width: calc(225px - 20px);
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    background-color: #232323;
+    border-radius: 7px;
+}
+
+.filter form .option {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #2B2C30;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.filter form .option h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.filter form .option .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter form .option .options div {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.filter form input[type='submit'] {
+    font-size: 15px;
+}
+
+/* MODIFY */
+.divFlex[style='margin-top:20px'] form {
+    width: 100%;
+    display: flex;
+}
+
+.divFlex[style='margin-top:20px'] form div#images {
+    width: 40%;
+    height: 100%;
+}
+
+.divFlex[style='margin-top:20px'] form div#register {
+    width: 60%;
+    height: 100%;
+}
+
+.divFlex[style='margin-top:20px'] form #images div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px dashed var(--product-modify);
+    position: relative;
+}
+
+.divFlex[style='margin-top:20px'] form #images div img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 7px;
+    z-index: 2;
+}
+
+.divFlex[style='margin-top:20px'] form #images div input[type='button'] {
+    width: 60px;
+    border-radius: 0 7px 0 7px;
+    height: 25px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 10px;
+    z-index: 4;
+}
+
+.divFlex[style='margin-top:20px'] form #images div figure {
+    z-index: 1;
+}
+
+.divFlex[style='margin-top:20px'] form #images div input[type='file'] {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.divFlex[style='margin-top:20px'] form #images #img1 {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.divFlex[style='margin-top:20px'] form #images .img2 {
+    width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.divFlex[style='margin-top:20px'] form #register .divFlex label {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: var(--product-modify-field);
+}
+
+.divFlex[style='margin-top:20px'] form #register .divFlex label h3 {
+    margin-bottom: 7px;
+}
+
+.divFlex form[style='margin-top:20px'] #register .divFlex label input, 
+.divFlex form[style='margin-top:20px'] #register .divFlex label button,
+.divFlex form[style='margin-top:20px'] #register .divFlex label select,
+.divFlex form[style='margin-top:20px'] #register .divFlex label textarea {
+    font-size: 14px;
+}
+
+/* SIZE */
+.modalContainer .modal .mainModal .divFlex .size {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* COLOR */
+.modalContainer .modal .mainModal .divFlex .color {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #2B2C30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* CATEGORY */
+.modalContainer .modal .mainModal .divFlex .category {
+    width: 300px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #2B2C30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #92969A;
+    cursor: pointer;
+}
+
+.modalContainer .modal .mainModal .divFlex .add {
+    background: none;
+    border: 1px dashed #92969A;
+}

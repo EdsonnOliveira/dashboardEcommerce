@@ -1,0 +1,49 @@
+.button {
+    outline: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* COLOR */
+.button.btVar {
+    background-color: var(--button);
+}
+
+.button.btVar:hover {
+    background-color: var(--buttonHover);
+}
+
+.button.btRed {
+    background-color: #C43434;
+}
+
+.button.btRed:hover {
+    background-color: #E66262;
+}
+
+.button.btPink {
+    background-color: #FC004D;
+}
+
+.button.btPink:hover {
+    background-color: #F54379;
+}
+
+/* TYPE */
+.button.btRound {
+    border-radius: 7px;
+}
+
+/* SIZE */
+.button.btNormal {
+    padding: 10px 30px;
+}
+
+.button.btMedium {
+    padding: 14px 47px;
+}
+
+.button.bt100 {
+    width: 100%;
+    padding:10px;
+}

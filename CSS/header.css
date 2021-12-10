@@ -1,0 +1,110 @@
+/* HEADER 1 */
+header#h1 {
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    background: var(--header);
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+    top: 0;
+    left: 0;
+}
+
+header#h1 nav {
+    width: 130px;
+    height: max-content;
+}
+
+header#h1 nav ul li {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header#h1 nav ul li a {
+    text-decoration: none;
+    color: var(--header-li);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header#h1 nav ul li a img[alt='Icon Home'] {
+    width: 53px;
+    margin-left: 6px;
+    margin-bottom: 13px;
+}
+
+header#h1#h1 nav ul li a img[alt='Icon Product'] {
+    width: 53px;
+    margin-left: 27px;
+    margin-bottom: 13px;
+}
+
+header#h1 nav ul li a img[alt='Icon Cart'] {
+    width: 53px;
+    margin-left: 8px;
+    margin-bottom: 13px;
+}
+
+header#h1 nav ul li a img[alt='Icon Report'] {
+    width: 53px;
+    margin-left: 35px;
+    margin-bottom: 13px;
+}
+
+/* HEADER 2 */
+header#h2 {
+    width: 100%;
+    height: 51px;
+    left: 130px;
+    border-bottom: 1px solid #4E4F51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#h2 nav {
+    margin-top: 1px;
+}
+
+header#h2 nav ul {
+    cursor: pointer;
+}
+
+header#h2 nav ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header#h2 nav ul img[alt='Icon User'] {
+    width: 23px;
+    margin-right: 10px;
+}
+
+header#h2 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header#h2 nav div {
+    width: 190px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    top: 60px;
+    right: 20px;
+    position: absolute;
+    display: none;
+}
+
+header#h2 nav div.show {
+    display: block;
+}
+
+header#h2 nav div ul li a {
+    color: #232323
+}

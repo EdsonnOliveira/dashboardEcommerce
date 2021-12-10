@@ -1,0 +1,64 @@
+table {
+    flex-wrap: wrap;
+}
+
+table tr th, table tr td {
+    padding: 0 10px;
+}
+
+/* COLOR */
+.table.tbWhite {
+    background-color: white;
+}
+
+.table .trCian {
+    background-color: #EFEFEF;
+}
+
+/* SIZE */
+.table.tb100 {
+    width: 100%;
+}
+
+/* TYPE */
+.table.tbRound {
+    border-radius: 7px;
+}
+
+.table.tbShadow {
+    box-shadow: 5px 0px 32px -6px rgba(0,0,0,0.75);
+}
+
+/* TD */
+.table td.tdStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table td.tdStatus div {
+    width: 101px;
+    height: 26px;
+    margin-top: 23px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.table td.tdStatus.tdGreen div {
+    background-color: #0ABB87;
+}
+
+.table td.tdStatus.tdYellow div {
+    background-color: #FFB822;
+}
+
+.table td.tdStatus.tdRed div {
+    background-color: #E04B4B;
+}
+
+.table td.tdStatus.tdBlue div {
+    background-color: #007BFC;
+}

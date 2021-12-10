@@ -1,0 +1,15 @@
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TYPE */
+.fgRounded {
+    border: 1px solid var(--product-modify-icon);
+    border-radius: 100%;
+}
+
+.fgAbsolute {
+    position: absolute;
+}
